@@ -41,9 +41,8 @@ overflow-x:hidden;
 
 header{
 padding:70px 20px;
-border-bottom:1px solid rgba(212,175,55,.45);
-background:rgba(0,0,0,.45);
-backdrop-filter:blur(6px);
+border:none;
+background:none;
 }
 
 .logo{
@@ -68,13 +67,16 @@ h1{
 font-family:'Playfair Display',serif;
 font-size:46px;
 color:#d4af37;
-margin-bottom:18px;
+
+text-shadow:
+0 4px 15px rgba(0,0,0,.8),
+0 0 35px rgba(0,0,0,.6);
 }
 
-.sub{
-color:#ddd;
-letter-spacing:3px;
-font-size:15px;
+.sub,
+.contacto-header{
+text-shadow:
+0 2px 10px rgba(0,0,0,.9);
 }
 
 .contacto-header{
@@ -441,7 +443,7 @@ LIC. VERÓNICA TORREZ VELA<br>
 <div class="buttons">
 
 <a class="btn" href="./ficha-tecnica.pdf" target="_blank">
-📄 Ver Ficha Técnica
+📄 Ver Brochure
 </a>
 
 <a class="btn" href="informacion-zona.pdf" target="_blank">
